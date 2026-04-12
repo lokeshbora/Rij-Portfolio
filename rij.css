@@ -58,13 +58,38 @@ h2 {
   border-color: #3b82f6;
   box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);
 }
-
-/* VIDEO CONTAINER */
-.video-container iframe {
-  transition: 0.3s;
+/* Unified Video Container */
+.video-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  background: #000; /* Keeps a clean background if video loads slow */
+  border-radius: 0.5rem;
 }
 
+/* Force 9:16 Ratio */
+.aspect-9-16 {
+  aspect-ratio: 9 / 16;
+}
+
+/* Apply transition to both direct video tags and iframes */
+.video-container video, 
+.video-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Hover Effect */
+.video-container:hover video,
 .video-container:hover iframe {
+  transform: scale(1.05);
+}
+
+
+/* Hover effect */
+.video-container:hover video {
   transform: scale(1.03);
 }
 
