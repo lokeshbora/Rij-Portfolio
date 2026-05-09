@@ -52,72 +52,86 @@
     </section>
     <section id="projects" class="py-20 px-6 max-w-6xl mx-auto">
         <h2 class="text-3xl font-bold mb-12 border-l-4 border-blue-500 pl-4">RECENT PROJECTS</h2>
-        
-        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
-            
-            <div class="space-y-4">
-                <div class="video-container aspect-9-16">
-                    <iframe src="https://drive.google.com/file/d/1aa34d0bfluzz9w-upRgZNG-Px3GV3qxB/preview" allow="autoplay" class="w-full h-full rounded-lg"></iframe>
-                </div>
-                <div class="flex justify-between items-center">
-                    <h3 class="text-lg font-bold">P: Alpha(motion graphics)</h3>
-                    <a href="https://drive.google.com/file/d/1aa34d0bfluzz9w-upRgZNG-Px3GV3qxB/preview" class="text-xs text-blue-400 hover:underline">View Source</a>
-                </div>
-            </div>
-              <div class="space-y-4">
-                <div class="video-container aspect-9-16">
-                    <iframe src="https://drive.google.com/file/d/18NMEzcrarCiA-afeyT5Veh9wRZzSrvJu/preview" allow="autoplay" class="w-full h-full rounded-lg"></iframe>
-                </div>
-                <div class="flex justify-between items-center">
-                    <h3 class="text-lg font-bold">Project Beta</h3>
-                    <a href="https://drive.google.com/file/d/18NMEzcrarCiA-afeyT5Veh9wRZzSrvJu/preview" class="text-xs text-blue-400 hover:underline">View Source</a>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <div class="video-container aspect-9-16">
-                    <iframe src="https://drive.google.com/file/d/1INaEBLQu1PmOFlqrq1rDd2qxO9vfG4Zb/preview" frameborder="0" allowfullscreen class="w-full h-full rounded-lg"></iframe>
-                </div>
-                <div class="flex justify-between items-center">
-                    <h3 class="text-lg font-bold">Project Alpha</h3>
-                    <a href="https://drive.google.com/file/d/1INaEBLQu1PmOFlqrq1rDd2qxO9vfG4Zb/preview" class="text-xs text-blue-400 hover:underline">View Source</a>
-                </div>
-            </div>
-
-            <div class="space-y-4">
-                <div class="video-container aspect-9-16">
-                    <iframe src="https://drive.google.com/file/d/1eiBwonVj8gaaGLhozF7682qqcTJfAci7/preview" frameborder="0" allowfullscreen class="w-full h-full rounded-lg"></iframe>
-                </div>
-                <div class="flex justify-between items-center">
-                    <h3 class="text-lg font-bold">Project Alpha</h3>
-                    <a href="https://drive.google.com/file/d/1eiBwonVj8gaaGLhozF7682qqcTJfAci7/preview" class="text-xs text-blue-400 hover:underline">View Source</a>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <div class="video-container aspect-9-16">
-                    <iframe src="https://drive.google.com/file/d/1Hco55RxwNj0HYZSGqDApoWsYrvbQGpX3/preview" allow="autoplay" class="w-full h-full rounded-lg"></iframe>
-                </div>
-                <div class="flex justify-between items-center">
-                    <h3 class="text-lg font-bold">Project Alpha</h3>
-                    <a href="https://drive.google.com/file/d/1Hco55RxwNj0HYZSGqDApoWsYrvbQGpX3/preview" class="text-xs text-blue-400 hover:underline">View Source</a>
-                </div>
-            </div>
-            <div class="space-y-4">
-                <div class="video-container aspect-9-16">
-                    <iframe src="https://drive.google.com/file/d/1s1Awjn8oVxCH7f4etzcDNpWXA44-VqOI/preview" allow="autoplay" class="w-full h-full rounded-lg"></iframe>
-                </div>
-                <div class="flex justify-between items-center">
-                    <h3 class="text-lg font-bold">Project Beta</h3>
-                    <a href="https://drive.google.com/file/d/1s1Awjn8oVxCH7f4etzcDNpWXA44-VqOI/preview" class="text-xs text-blue-400 hover:underline">View Source</a>
-                </div>
-            </div>
-
-
-            
-        </div>
-        
-    </section>
-
     
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-10">
+        
+            <!-- Project 1 -->
+                <div class="space-y-4">
+                    <video 
+                        class="project-video" 
+                        controls
+                        muted loop playsinline 
+                        style="width: 300px; height: 533px; object-fit: cover; border-radius: 10px;">
+                        <source src="project1.mp4" type="video/mp4">
+                    </video>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-bold">P: Alpha (Motion Graphics)</h3>
+                        <span class="text-xs text-gray-500">Hover to Preview</span>
+                    </div>
+                </div>
+
+            <!-- Project 2 -->
+                <div class="space-y-4">
+                    <video 
+                            controls
+                            class="project-video" 
+                            muted loop playsinline 
+                            style="width: 300px; height: 533px; object-fit: cover; border-radius: 10px;">
+                            <source src="project2.mp4" type="video/mp4">
+                    </video>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-bold">Project Beta</h3>
+                        <span class="text-xs text-gray-500">Hover to Preview</span>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="space-y-4">
+                    <video 
+                        class="project-video" 
+                        controls
+                        muted loop playsinline 
+                        style="width: 300px; height: 533px; object-fit: cover; border-radius: 10px;">
+                        <source src="project3.mp4" type="video/mp4">
+                    </video>
+                    </div>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-bold">Project Beta</h3>
+                        <span class="text-xs text-gray-500">Hover to Preview</span>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="space-y-4">
+                    <video 
+                            class="project-video" 
+                            controls
+                            muted loop playsinline 
+                            style="width: 300px; height: 533px; object-fit: cover; border-radius: 10px;">
+                            <source src="project4.mp4" type="video/mp4">
+                    </video>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-bold">Project Beta</h3>
+                        <span class="text-xs text-gray-500">Hover to Preview</span>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="space-y-4">
+                    <video 
+                        class="project-video" 
+                        controls
+                        muted loop playsinline 
+                        style="width: 400px; height: 533px; object-fit: cover; border-radius: 10px;">
+                        <source src="project5.mp4" type="video/mp4">
+                    </video>
+                    <div class="flex justify-between items-center">
+                        <h3 class="text-lg font-bold">Project Beta</h3>
+                        <span class="text-xs text-gray-500">Hover to Preview</span>
+                    </div>
+                </div>
+            <!-- Repeat this structure for the remaining 4 projects... -->
+
+
+        </div>
+    </section>
     <section style="text-align:center; padding:50px; background:#0a0a0a; color:white;">
         <h2>Contact Me</h2>
 
